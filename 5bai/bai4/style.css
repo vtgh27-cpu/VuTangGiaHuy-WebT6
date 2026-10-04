@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    margin-top: 15px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards{
+    display: flex;
+}
+
+.card {
+    border: 1px solid gray;
+    width: 200px ;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+p .card {
+    color: rgb(160, 106, 106);
+}
+
+button {
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    padding: 4px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    
+}
